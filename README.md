@@ -10,6 +10,7 @@ In this project, curved lanes are detected using sliding window approach and pol
 5. Predict the lane points based on the fitted model
 6. Fill the lane area with colour for visualisation
 
+## Result:
 ![](https://github.com/Ank-G/Curved-Lane-Detection/blob/main/output/curved_lane_detection.gif)
 
     
