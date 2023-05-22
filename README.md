@@ -1,5 +1,5 @@
 # Curved Lane Detection
-Detection of curved lanes is a more difficult task compared to detection of straight lanes. In straight lane detection, hough transform can be used to detect straight lines. However, hough transform can only be used for detecting straight lines and therefore is not an optimal method to be used in curved lane detection.<br>
+Detection of curved lanes is a more difficult task compared to detection of straight lanes. In straight lane detection, hough transform can be used to detect the straight lanes. However, hough transform can only be used for detecting straight lines and cannot be used to detect curved lines. Therefore, it is not an optimal method to be used in curved lane detection.<br>
 In this project, curved lanes are detected using sliding window approach and polynomial curve fitting. Using the slope derived from each lane, the turn can be predicted (whether right turn or left turn) even if one of the lanes is occluded.
 
 ## Steps:
